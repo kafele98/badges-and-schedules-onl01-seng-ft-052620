@@ -3,4 +3,5 @@ def badge_maker(name)
 end
 
 def badge_maker_creator(array)
+  new_array= []
   
