@@ -10,5 +10,13 @@ def badge_maker_creator(array)
   return new_array
 end
 
-
+def assign_rooms(array)
+  roomarray= []
+  counter= 1 
+  array.each do |name|
+    roomarray<< ("Hello, #{name}! You'll be assigned to room #{counter}!")
+    counter += 1 
+  end
+  return roomarray
+end
   
