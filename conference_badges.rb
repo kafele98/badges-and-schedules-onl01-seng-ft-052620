@@ -17,6 +17,6 @@ def assign_rooms(array)
     roomarray<< ("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1 
   end
-  return roomarray
+  puts roomarray
 end
   
